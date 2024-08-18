@@ -1,10 +1,15 @@
 import React from "react";
+// import "../App.css";
 
 function HealthSafety({ formData, setFormData }) {
+  const handleCheckboxChange = (e) => {
+    const { value } = e.target;
+    setFormData({ ...formData, healthDeclaration: value });
+  };
   return (
     <div>
       <h2>Stage 3: Health and Safety</h2>
-      <label>
+      {/* <label>
         Health Declaration:
         <input
           type="checkbox"
@@ -14,7 +19,28 @@ function HealthSafety({ formData, setFormData }) {
           }
           required
         />
+      </label> */}
+
+      <label>
+        Health Declaration:
+        <input
+          type="checkbox"
+          value="Yes"
+          checked={formData.healthDeclaration === "Yes"}
+          onChange={handleCheckboxChange}
+          required
+        />
+        Yes
+        <input
+          type="checkbox"
+          value="No"
+          checked={formData.healthDeclaration === "No"}
+          onChange={handleCheckboxChange}
+          required
+        />
+        No
       </label>
+
       <label>
         Emergency Contact Information:
         <input

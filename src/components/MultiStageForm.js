@@ -15,7 +15,7 @@ function MultiStageForm() {
     returnDate: "",
     accommodation: "",
     specialRequests: "",
-    healthDeclaration: false,
+    healthDeclaration: "",
     emergencyContact: "",
     medicalConditions: "",
   });
