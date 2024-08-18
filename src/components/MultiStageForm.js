@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import PersonalInfo from "./PersonalInfo";
 import TravelPreferences from "./TravelPreferences";
 import HealthSafety from "./HealthSafety";
-import "App.css";
 
 function MultiStageForm() {
   const [stage, setStage] = useState(1);

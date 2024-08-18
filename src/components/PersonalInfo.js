@@ -1,5 +1,4 @@
 import React from "react";
-import "App.css";
 
 function PersonalInfo({ formData, setFormData }) {
   return (
