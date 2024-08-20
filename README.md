@@ -13,7 +13,9 @@ Live Link : https://mars-visit-application-khr.netlify.app/
 
 Steps to run the project in in-house domain:
 1. Clone this project using `git clone`.
-2. 
+2. Run npm install
+3. Run npm start - to start the application and check the localhost:3000
+4. Run npm test - in order to run the unit tests
 
 ### `npm start`
 
@@ -47,8 +49,9 @@ Your app is ready to be deployed!
 8. Responsive website (would work for small, medium and large screens)
 
 **Features to be planned in the future:**
-1. Timer
+1. Add Timer to the website
 2. Use React-Toastify instead of Alert message
+3. To add better styles
 
 **Deployment:**
 
@@ -67,4 +70,3 @@ Deployed the application in [Netlify](https://www.netlify.com/).
 **Testing Result:**
 
 ![image](https://github.com/user-attachments/assets/2ea59f53-b76b-421c-8d2b-c0fc15e60891)
-
