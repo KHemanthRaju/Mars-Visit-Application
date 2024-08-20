@@ -50,7 +50,7 @@ function MultiStageForm() {
         <HealthSafety formData={formData} setFormData={setFormData} />
       )}
 
-      <div>
+      <div style={{ alignItems: "center" }}>
         {stage > 1 && <button onClick={prevStage}>Back</button>}
         {stage < 3 && <button onClick={nextStage}>Next</button>}
         {stage === 3 && <button onClick={handleSubmit}>Submit</button>}

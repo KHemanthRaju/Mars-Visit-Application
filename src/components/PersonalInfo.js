@@ -5,7 +5,7 @@ function PersonalInfo({ formData, setFormData }) {
     <div>
       <h2>Stage 1: Personal Information</h2>
       <label>
-        Full Name:
+        <span>Full Name : </span>
         <input
           type="text"
           value={formData.fullName}
@@ -16,7 +16,7 @@ function PersonalInfo({ formData, setFormData }) {
         />
       </label>
       <label>
-        Date of Birth:
+        <span>Date of Birth : </span>
         <input
           type="date"
           value={formData.dob}
@@ -25,7 +25,7 @@ function PersonalInfo({ formData, setFormData }) {
         />
       </label>
       <label>
-        Nationality:
+        Nationality :
         <input
           type="text"
           value={formData.nationality}
@@ -36,7 +36,7 @@ function PersonalInfo({ formData, setFormData }) {
         />
       </label>
       <label>
-        Email:
+        Email :
         <input
           type="email"
           value={formData.email}
@@ -44,15 +44,19 @@ function PersonalInfo({ formData, setFormData }) {
           required
         />
       </label>
-      <label>
-        Phone:
-        <input
-          type="tel"
-          value={formData.phone}
-          onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-          required
-        />
-      </label>
+      <span>
+        <label>
+          Phone :
+          <input
+            type="tel"
+            value={formData.phone}
+            onChange={(e) =>
+              setFormData({ ...formData, phone: e.target.value })
+            }
+            required
+          />
+        </label>
+      </span>
     </div>
   );
 }
