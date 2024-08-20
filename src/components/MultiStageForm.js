@@ -31,22 +31,12 @@ function MultiStageForm() {
 
   const handleSubmit = () => {
     if (
-      validatePersonalInfo() &&
-      validateTravelPreferences() &&
-      validateHealthSafety()
+      validatePersonalInfo(formData) &&
+      validateTravelPreferences(formData) &&
+      validateHealthSafety(formData)
     ) {
       alert("Form Submitted Successfully");
     }
-    // if (!formData.fullName || !formData.email || !formData.phone) {
-    //   alert("Please Fill all required fields");
-    //   return;
-    // }
-    // if (!/\S+@\S+\.\S+/.test(formData.email)) {
-    //   alert("Please enter a valid email");
-    //   return;
-    // }
-    // // More validation logic...
-    // alert("Form Submitted Successfully");
   };
 
   return (
