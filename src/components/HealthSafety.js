@@ -20,27 +20,27 @@ function HealthSafety({ formData, setFormData }) {
           required
         />
       </label> */}
-
       <label>
         Health Declaration:
-        <input
-          type="checkbox"
-          value="Yes"
-          checked={formData.healthDeclaration === "Yes"}
-          onChange={handleCheckboxChange}
-          required
-        />
-        Yes
-        <input
-          type="checkbox"
-          value="No"
-          checked={formData.healthDeclaration === "No"}
-          onChange={handleCheckboxChange}
-          required
-        />
-        No
+        <div className="checkbox-group">
+          Yes
+          <input
+            type="checkbox"
+            value="Yes"
+            checked={formData.healthDeclaration === "Yes"}
+            onChange={handleCheckboxChange}
+            required
+          />
+          No
+          <input
+            type="checkbox"
+            value="No"
+            checked={formData.healthDeclaration === "No"}
+            onChange={handleCheckboxChange}
+            required
+          />
+        </div>
       </label>
-
       <label>
         Emergency Contact Information:
         <input

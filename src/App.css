@@ -5,6 +5,15 @@ body {
   box-sizing: border-box;
 }
 
+body.dark-mode {
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.dark-mode button {
+  background-color: #0056b3 !important;
+}
+
 .form-container {
   max-width: 90%;
   width: 80%;
@@ -47,6 +56,20 @@ button:hover {
   background-color: #0056b3;
 }
 
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Add some space between Yes and No options */
+}
+
+.checkbox-group label {
+  margin: 0; /* Remove default margin from label */
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 5px; /* Space between checkbox and label text */
+}
+
 @media (min-width: 600px) {
   .form-container {
     width: 80%;
@@ -68,13 +91,4 @@ button:hover {
   .form-container {
     width: 60%;
   }
-}
-
-body.dark-mode {
-  background-color: #333;
-  color: #f9f9f9;
-}
-
-.dark-mode button {
-  background-color: #0056b3 !important;
 }
