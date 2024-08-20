@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import PersonalInfo from "./PersonalInfo";
 import TravelPreferences from "./TravelPreferences";
 import HealthSafety from "./HealthSafety";
+import Navbar from "./Navbar/Navbar";
 
 function MultiStageForm() {
   const [stage, setStage] = useState(1);
@@ -38,6 +39,7 @@ function MultiStageForm() {
 
   return (
     <div>
+      <Navbar />
       {stage === 1 && (
         <PersonalInfo formData={formData} setFormData={setFormData} />
       )}
