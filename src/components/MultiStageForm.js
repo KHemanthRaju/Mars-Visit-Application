@@ -3,6 +3,11 @@ import PersonalInfo from "./PersonalInfo";
 import TravelPreferences from "./TravelPreferences";
 import HealthSafety from "./HealthSafety";
 import Navbar from "./Navbar/Navbar";
+import {
+  validateHealthSafety,
+  validatePersonalInfo,
+  validateTravelPreferences,
+} from "./validations";
 
 function MultiStageForm() {
   const [stage, setStage] = useState(1);
@@ -25,16 +30,23 @@ function MultiStageForm() {
   const prevStage = () => setStage(stage - 1);
 
   const handleSubmit = () => {
-    if (!formData.fullName || !formData.email || !formData.phone) {
-      alert("Please fill all required fields");
-      return;
+    if (
+      validatePersonalInfo() &&
+      validateTravelPreferences() &&
+      validateHealthSafety()
+    ) {
+      alert("Form Submitted Successfully");
     }
-    if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      alert("Please enter a valid email");
-      return;
-    }
-    // More validation logic...
-    alert("Form Submitted Successfully");
+    // if (!formData.fullName || !formData.email || !formData.phone) {
+    //   alert("Please Fill all required fields");
+    //   return;
+    // }
+    // if (!/\S+@\S+\.\S+/.test(formData.email)) {
+    //   alert("Please enter a valid email");
+    //   return;
+    // }
+    // // More validation logic...
+    // alert("Form Submitted Successfully");
   };
 
   return (
