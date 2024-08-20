@@ -37,15 +37,15 @@ Features Included:
 
 Features to be planned in the future:
 
-Deployment:
+**Deployment:**
 
 Deployed the application in [Netlify](https://www.netlify.com/).
 
 // In progress
 
-Results:
+**Results:**
 
-Application Screenshots:
+**Application Screenshots:**
 
 1. ![image](https://github.com/user-attachments/assets/ed7058eb-32a7-4edc-8828-d92db4851547)
 2. ![image](https://github.com/user-attachments/assets/4ae7a424-c09d-4062-a0fc-9f76f9abafba)
@@ -53,12 +53,7 @@ Application Screenshots:
 4. ![image](https://github.com/user-attachments/assets/17fbe845-58ae-4c65-92ba-2326d11d7f1b)
 5. ![image](https://github.com/user-attachments/assets/b0762a5d-9ad1-47ac-8c1e-a6d0924da35e)
 
-
-
-
-
-
-Testing Result:
+**Testing Result:**
 
 ![image](https://github.com/user-attachments/assets/2ea59f53-b76b-421c-8d2b-c0fc15e60891)
 
