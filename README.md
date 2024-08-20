@@ -1,8 +1,19 @@
 # Mars-Visit-Application
 
-## Available Scripts
+**Create a Multi-Stage Mars Visit Application Form**
 
-In the project directory, you can run:
+**Description:** Build a simple multi-stage application form for individuals interested in
+visiting Mars. The form will collect various details and preferences from applicants. This
+project should take approximately 8-10 hours to complete, and you will have 3 days to
+submit your work.
+
+This project is build majorly using **ReactJS**.
+
+Live Link : https://mars-visit-application-khr.netlify.app/
+
+Steps to run the project in in-house domain:
+1. Clone this project using `git clone`.
+2. 
 
 ### `npm start`
 
@@ -25,23 +36,23 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-Built using ReactJS
+**Features Included:**
+1. Users will be able to fill out the application.
+2. Should fill all the required fields for successful submission.
+3. Multi-Stage Application Forms
+4. Form Validation
+5. Implement navigation buttons to move between form stages.
+6. Light-Dark Theme (extra feature)
+7. Unit Tests using Jest
+8. Responsive website (would work for small, medium and large screens)
 
-Features Included:
-1. Multi-Stage Application Forms
-2. Form Validation
-3. Implement navigation buttons to move between form stages.
-4. Light-Dark Theme (extra feature)
-5. Unit Tests using Jest
-6. Responsive website (would work for small, medium and large screens)
-
-Features to be planned in the future:
+**Features to be planned in the future:**
+1. Timer
+2. Use React-Toastify instead of Alert message
 
 **Deployment:**
 
 Deployed the application in [Netlify](https://www.netlify.com/).
-
-// In progress
 
 **Results:**
 
