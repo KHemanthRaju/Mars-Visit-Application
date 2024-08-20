@@ -30,8 +30,22 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 Built using ReactJS
 
 Features Included:
+1. Multi-Stage Application Forms
+2. Form Validation
+3. Light-Dark Theme
+4. Unit Tests using Jest
+5. Responsive website (would work for small, medium and large screens)
 
 Features to be planned in the future:
 
 
 // In progress
+
+Results:
+
+Application Screenshots:
+
+
+Testing Result:
+![image](https://github.com/user-attachments/assets/2ea59f53-b76b-421c-8d2b-c0fc15e60891)
+
