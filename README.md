@@ -9,9 +9,16 @@ submit your work.
 
 This project is build majorly using **ReactJS**.
 
-Live Link : https://mars-visit-application-khr.netlify.app/
+**Live Link :** https://mars-visit-application-khr.netlify.app/
 
-Steps to run the project in in-house domain:
+### Pre-requisites
+
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+
+**Steps to run the project in in-house domain:**
+
 1. Clone this project using `git clone https://github.com/KHemanthRaju/Mars-Visit-Application.git`.
 2. Run `npm install`
 3. Run `npm start` - to start the application and check the localhost:3000
